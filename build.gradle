@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'ch.aranea.climbapp.App'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.sparkjava:spark-core:2.3'
+    compile 'org.avaje.ebeanorm:avaje-ebeanorm:6.16.1'
+    compile 'org.avaje:avaje-agentloader:2.1.2'
+    compile 'org.avaje.ebeanorm:avaje-ebeanorm-agent:4.9.1'
+    compile 'com.h2database:h2:1.4.186'
+    testCompile 'junit:junit:4.12'
+}
